@@ -1,0 +1,252 @@
+﻿<Window x:Class="Wartosc_Oczekiwana.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wartosc_Oczekiwana"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="748.605" Width="436">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel x:Name="panel">
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Króliki:</Label>
+                <TextBox Grid.Column="1" x:Name="iKrolikow" Text="0"/>
+                <Label Grid.Column="2">Konie:</Label>
+                <TextBox Grid.Column="3" x:Name="iKoni" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Owce:</Label>
+                <TextBox Grid.Column="1" x:Name="iOwiec" Text="0"/>
+                <Label Grid.Column="2">Mały pies:</Label>
+                <TextBox Grid.Column="3" x:Name="iMPies" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Świnie:</Label>
+                <TextBox Grid.Column="1" x:Name="iSwin" Text="0"/>
+                <Label Grid.Column="2">Duży pies:</Label>
+                <TextBox Grid.Column="3" Text="0" x:Name="iDPies"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Krowy:</Label>
+                <TextBox Grid.Column="1" x:Name="iKrow" Text="0"/>
+
+            </Grid>
+            <Button x:Name="LiczButton" Click="LiczButton_Click" Content="Licz" Margin="10 10 10 10"></Button>
+
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="1" Text="Wynik: "/>
+                <TextBlock Grid.Column="2" x:Name="Wynik" Text="0"/>
+
+            </Grid>
+
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Króliki G:</Label>
+                <TextBox Grid.Column="1" x:Name="dKrolikow" Text="0"/>
+                <Label Grid.Column="2">Konie G:</Label>
+                <TextBox Grid.Column="3" x:Name="dKoni" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Owce G:</Label>
+                <TextBox Grid.Column="1" x:Name="dOwiec" Text="0"/>
+                <Label Grid.Column="2">Krowy G:</Label>
+                <TextBox Grid.Column="3" x:Name="dKrow" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Świnie G:</Label>
+                <TextBox Grid.Column="1" x:Name="dSwin" Text="0"/>
+
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W 2K:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscDwaKroliki" Text="0"/>
+                <Label Grid.Column="2">W KiO:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscKrolikIOwca" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W KiS:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscKrolikISwinia" Text="0"/>
+                <Label Grid.Column="2">W KiKr:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscKrolikIKrowa" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W KiKo:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscKrolikIKon" Text="0"/>
+                <Label Grid.Column="2">W KiLis:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscKrolikILis" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W KiWilk:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscKrolikIWilk" Text="0"/>
+                <Label Grid.Column="2">W 2O:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscDwieOwce" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W OIS:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscOwcaISwinia" Text="0"/>
+                <Label Grid.Column="2">W OiKr:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscOwcaIKrowa" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W OiKo:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscOwcaIKon" Text="0"/>
+                <Label Grid.Column="2">W OiLis:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscOwcaILis" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W OiWilk:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscOwcaIWilk" Text="0"/>
+                <Label Grid.Column="2">W 2S:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscDwieSwinie" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W SiKr:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscSwiniaIKrowa" Text="0"/>
+                <Label Grid.Column="2">W SiKo:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscSwiniaIKon" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W SiLis:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscSwiniaILis" Text="0"/>
+                <Label Grid.Column="2">W SiWilk:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscSwiniaIWilk" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W KriKo:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscKrowaIKon" Text="0"/>
+                <Label Grid.Column="2">W KrIWilk:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscKrowaIWilk" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W KoiLis:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscKonILis" Text="0"/>
+                <Label Grid.Column="2">W WlkiLis:</Label>
+                <TextBox Grid.Column="3" x:Name="wartoscWilkILis" Text="0"/>
+            </Grid>
+            <Grid Margin="50 10 50 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">W Stada:</Label>
+                <TextBox Grid.Column="1" x:Name="wartoscStada" Text="0"/>
+
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

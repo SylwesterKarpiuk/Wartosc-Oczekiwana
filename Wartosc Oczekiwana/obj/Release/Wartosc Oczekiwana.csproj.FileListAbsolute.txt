@@ -1,0 +1,30 @@
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.exe.config
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.exe
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.pdb
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csprojAssemblyReference.cache
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\MainWindow.g.cs
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\App.g.cs
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana_MarkupCompile.cache
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana_MarkupCompile.lref
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\MainWindow.baml
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.g.resources
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc_Oczekiwana.Properties.Resources.resources
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csproj.GenerateResource.cache
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csproj.CoreCompileInputs.cache
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.exe
+C:\Users\Sylwester Karpiuk\source\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.pdb
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.exe.config
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.exe
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\bin\Release\Wartosc Oczekiwana.pdb
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csprojAssemblyReference.cache
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\MainWindow.g.cs
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\App.g.cs
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana_MarkupCompile.cache
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana_MarkupCompile.lref
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\MainWindow.baml
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.g.resources
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc_Oczekiwana.Properties.Resources.resources
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csproj.GenerateResource.cache
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.csproj.CoreCompileInputs.cache
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.exe
+G:\repos\Wartosc Oczekiwana\Wartosc Oczekiwana\obj\Release\Wartosc Oczekiwana.pdb
